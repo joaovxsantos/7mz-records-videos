@@ -1,32 +1,29 @@
 document.getElementById("video")
 
-function play(){
+function play() {
     video.play()
 }
 
-function pause(){
-  video.pause()
+function pause() {
+    video.pause()
 }
 
-function stop(){
-   video.pause()
-   video.currentTime = 0
+function stop() {
+    video.pause()
+    video.currentTime = 0
 }
 
-function back(){
-   video.currentTime -=15
+function back() {
+    video.currentTime -= 15
 }
 
-function next(){
+function next() {
 
-    video.currentTime +=15
+    video.currentTime += 15
 
 }
 
-
-
-
-function mouse(){
+function mouse() {
 
     let a = document.getElementsByClassName("btn")[0]
     let b = document.getElementsByClassName("btn")[1]
@@ -42,16 +39,20 @@ function mouse(){
 }
 
 
-function mouse2(){
-   let a = document.getElementsByClassName("btn")[0]   
-   let b = document.getElementsByClassName("btn")[1] 
-   let c = document.getElementsByClassName("btn")[2]
-   let d = document.getElementsByClassName("btn")[3]
-   let e = document.getElementsByClassName("btn")[4]
+function mouse2() {
+    let a = document.getElementsByClassName("btn")[0]
+    let b = document.getElementsByClassName("btn")[1]
+    let c = document.getElementsByClassName("btn")[2]
+    let d = document.getElementsByClassName("btn")[3]
+    let e = document.getElementsByClassName("btn")[4]
 
-   a.style = "opacity: 0"
-   b.style = "opacity: 0"
-   c.style = "opacity: 0"
-   d.style = "opacity: 0"
-   e.style = "opacity: 0"
+    a.style = "opacity: 0"
+    b.style = "opacity: 0"
+    c.style = "opacity: 0"
+    d.style = "opacity: 0"
+    e.style = "opacity: 0"
+}
+
+function trade(){
+    alert("olá")
 }
