@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+body{
+    background-image: linear-gradient(to right, yellow, red);
+}
+
 h1{
     margin-top: 2rem;
 }
@@ -24,9 +28,24 @@ video{
     max-width: 100%;
 }
 
-p{
+#p1{
     display: none;
 }
+
+.content2{
+    margin: auto;
+    max-width: 500px;
+    max-height: 282px;
+    border: 13px double rgb(255, 153, 0);
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:800px){
     
@@ -35,7 +54,7 @@ p{
         position: static;
         
     }
-    p{
+    #p1{
        display: block;
     }
 }

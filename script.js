@@ -14,12 +14,12 @@ function stop(){
 }
 
 function back(){
-   video.currentTime -=10
+   video.currentTime -=15
 }
 
 function next(){
 
-    video.currentTime +=10
+    video.currentTime +=15
 
 }
 
