@@ -58,7 +58,7 @@ function mouse2() {
 function trade() {
 
     video.poster = "./thumb o mundo vai saber meu nome.png"
-    video.src = "./O MUNDO VAI SABER MEU NOME - Lucas A.R.T. e Gabriel Rodrigues (Game Over Squad Soundtrack).mp4"
+    video.src = "./videos/O MUNDO VAI SABER MEU NOME - Lucas A.R.T. e Gabriel Rodrigues (Game Over Squad Soundtrack).mp4"
     h2.innerText = "O mundo vai saber meu nome"
     content.style = "border: 13px double #bc5e00;"
     window.scrollTo(0, 0)
@@ -66,7 +66,7 @@ function trade() {
 
 function trade2() {
     video.poster = "./thumb te falta odio.png"
-    video.src = "./TE FALTA ÓDIO - Gabriel Rodrigues e Lucas A.R.T. [Prod. bezimenimusic].mp4"
+    video.src = "./videos/TE FALTA ÓDIO - Gabriel Rodrigues e Lucas A.R.T. [Prod. bezimenimusic].mp4"
     h2.innerText = "Te falta ódio"
     content.style = "border: 13px double rgb(235, 239, 241);"
     window.scrollTo(0, 0)
@@ -74,7 +74,7 @@ function trade2() {
 
 function trade3() {
     video.poster = "./thumb yondaime.png"
-    video.src = "./YONDAIME - Lucas A.R.T. e Pablo Matheuz [Prod. Bonk Beatz].mp4"
+    video.src = "./videos/YONDAIME - Lucas A.R.T. e Pablo Matheuz [Prod. Bonk Beatz].mp4"
     h2.innerText = "Yondaime"
     content.style = "border: 13px double rgb(23, 24, 24);"
     window.scrollTo(0, 0)
@@ -82,7 +82,7 @@ function trade3() {
 
 function trade4() {
     video.poster = "./thumb esferas do dragao.png"
-    video.src = "./ESFERAS DO DRAGÃO - Pedro Alvez, Lucas A.R.T. e Pablo Matheuz [Prod. Mantra & Zero Beatz].mp4"
+    video.src = "./videos/ESFERAS DO DRAGÃO - Pedro Alvez, Lucas A.R.T. e Pablo Matheuz [Prod. Mantra & Zero Beatz].mp4"
     h2.innerText = "Esferas do dragão"
     content.style = "border: 13px double rgb(255, 153, 0);"
     window.scrollTo(0, 0)
