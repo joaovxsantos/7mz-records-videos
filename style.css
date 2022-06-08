@@ -83,6 +83,14 @@ h3 {
   margin: 0;
 }
 
+
+#footer{
+    position: fixed;
+    top: 50%;
+    font-weight: 700;
+}
+
+
 @media screen and (max-width: 800px) {
   .btn {
     position: static;
@@ -90,4 +98,8 @@ h3 {
   #p1 {
     display: block;
   }
+  #footer{
+    display: none;
+    
+}
 }
