@@ -24,10 +24,18 @@ video{
     max-width: 100%;
 }
 
-
+p{
+    display: none;
+}
 
 @media screen and (max-width:800px){
+    
+
     img{
         position: static;
+        
+    }
+    p{
+       display: block;
     }
 }

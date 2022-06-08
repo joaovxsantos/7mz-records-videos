@@ -23,46 +23,35 @@ function next(){
 
 }
 
-function button(){
-    let img = document.getElementsByTagName("img")[0]
-    let img1 = document.getElementsByTagName("img")[1]
-    let img2 = document.getElementsByTagName("img")[2]
-    let img3 = document.getElementsByTagName("img")[3]
-    let img4 = document.getElementsByTagName("img")[4]
-
-    img.style = "opacity: 100%"
-    img1.style = "opacity: 100%"
-    img2.style = "opacity: 100%"
-    img3.style = "opacity: 100%"
-    img4.style = "opacity: 100%"
-
-    addEventListener("mouseout", clear())
 
 
+
+function mouse(){
+
+    let a = document.getElementsByClassName("btn")[0]
+    let b = document.getElementsByClassName("btn")[1]
+    let c = document.getElementsByClassName("btn")[2]
+    let d = document.getElementsByClassName("btn")[3]
+    let e = document.getElementsByClassName("btn")[4]
+
+    a.style = "opacity: 100%"
+    b.style = "opacity: 100%"
+    c.style = "opacity: 100%"
+    d.style = "opacity: 100%"
+    e.style = "opacity: 100%"
 }
 
-// function clear(){
-//     let img = document.getElementsByTagName("img")[0]
-//     let img1 = document.getElementsByTagName("img")[1]
-//     let img2 = document.getElementsByTagName("img")[2]
-//     let img3 = document.getElementsByTagName("img")[3]
-//     let img4 = document.getElementsByTagName("img")[4]
 
-//     img.style = "opacity: 0"
-//     img1.style = "opacity: 0"
-//     img2.style = "opacity: 0"
-//     img3.style = "opacity: 0"
-//     img4.style = "opacity: 0"
-// }
+function mouse2(){
+   let a = document.getElementsByClassName("btn")[0]   
+   let b = document.getElementsByClassName("btn")[1] 
+   let c = document.getElementsByClassName("btn")[2]
+   let d = document.getElementsByClassName("btn")[3]
+   let e = document.getElementsByClassName("btn")[4]
 
-
-function teste(){
-   let a = document.getElementsByTagName("button")[0]
-    a.style = "background-color: red"
-
-    addEventListener("mouseout", alo)
-}
-
-function alo(){
-    a.style = "background-color: blue"
+   a.style = "opacity: 0"
+   b.style = "opacity: 0"
+   c.style = "opacity: 0"
+   d.style = "opacity: 0"
+   e.style = "opacity: 0"
 }
